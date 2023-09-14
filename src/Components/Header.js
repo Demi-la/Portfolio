@@ -9,7 +9,7 @@ const Header = () => {
           Hello, My Name Is
         </h6>
         <h1 data-aos="fade-down" data-aos-duration="3000">
-          CHISOM OGUINE
+          ADEBIYI OLUWASEUN 
         </h1>
         <br />
         <br />

@@ -1,6 +1,8 @@
 import React from "react";
 import Chisom from "../Assets/Chisom.png";
 import styles from "../Styles/Content.module.css";
+import profile from "../Assets/profile.JPG"
+import CTA from "./cta";
 
 const About = ({ handleOpen }) => {
   return (
@@ -12,7 +14,7 @@ const About = ({ handleOpen }) => {
       <main>
         <span data-aos="zoom-in-right" data-aos-duration="3300">
           <img
-            src={Chisom}
+            src={profile}
             alt="avi"
             style={{ height: "510px", width: "100%", borderRadius: "6px" }}
           />
@@ -28,27 +30,30 @@ const About = ({ handleOpen }) => {
           </div>
           <h1>Who Am I</h1>
           <p>
-            User-focused Front-End Developer with a pixel-perfect eye for design
-            and a deep understanding of usability goals, great experience in
-            building and maintaining scalable, responsive, well documented
-            websites and web applications.
+            Greetings, I'm a dedicated frontend developer. My focus lies in
+            creating seamless and user-centric designs. My passion lies in
+            making the digital world not only functional but also aesthetically
+            pleasing.
           </p>
           <br />
           <p>
-            I am a vibrant creative thinker and a problem solver passionate
-            about designs with a proven ability to collaborate with
-            cross-functional teams to deliver high-quality products and
-            translate powerful ideas into beautiful, functional design solutions
-            and everyday business values.
+            With an eye for detail, I've honed my skills in responsive design
+            and web accessibility, ensuring that every project I touch provides
+            an exceptional user experience. I'm a firm believer in the power of
+            continuous learning, and I'm always exploring the latest tools and
+            frameworks to stay at the forefront of web development.
           </p>
           <br />
           <p>
-            I enjoy learning and constantly evolving, keeping abreast of new
-            trends and best practices in software development. Navigating
-            through deadlines and other obstacles to deliver quality results
-            under time crunches.
+            Collaboration is at the heart of my work. I've had the privilege of
+            working with diverse teams, from designers to backend developers,
+            and I thrive in environments where different perspectives converge
+            to create outstanding products. I'm excited about the ever-evolving
+            field of frontend development and the endless possibilities it
+            offers.
           </p>
-          <button onClick={handleOpen}>View CV</button>
+          <button onClick={handleOpen}>View CV</button>{" "}
+          <button><CTA/></button>
         </div>
       </main>
     </section>

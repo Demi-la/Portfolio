@@ -17,8 +17,12 @@ const Navbar = () => {
   return (
     <>
       <section style={{ padding: "32px" }} className={Styles.NavbarContainer}>
-        <a href="Home" style={{ width: "120px", height: "120px" }}>
-          <img src={iconLogo} alt="logo" />
+        <a
+          href="Home"
+          style={{ color: "#CDC3BE", fontWeight: "800", fontSize: "30px" }}
+        >
+          {/* <img src={iconLogo} alt="logo" /> */}
+          <h1>DEMI.LADE</h1>
         </a>
         <nav>
           <a href="Home" activeClass="active">
@@ -62,13 +66,19 @@ const Navbar = () => {
                 display: "flex",
                 justifyContent: "space-between",
                 alignItems: "center",
+                marginTop: '4rem'
               }}
             >
               <a
                 href="Home"
-                style={{ width: "200px", height: "200px", marginLeft: "-3rem" }}
-              >
-                <img src={logoIcon} alt="img" />
+                style={{
+                  color: "#CDC3BE",
+                  fontWeight: "800",
+                  fontSize: "40px",
+                  
+                }}
+              
+                ><h1>DEMI.LADE</h1>
               </a>
               <div onClick={closeNavbar}>
                 <AiOutlineClose style={{ marginLeft: "80%" }} />

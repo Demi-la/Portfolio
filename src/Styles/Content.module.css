@@ -1,6 +1,7 @@
 .ContentContainer {
   @apply flex justify-center py-24;
-  background-color: #282a29;
+  /* background-color: #282a29; */
+  background-color: #795a46;
 }
 
 .ContentContainer main {
@@ -29,7 +30,7 @@
 
 .ChildAbout div {
   @apply w-8 h-1;
-  background-color: #d69e2e;
+  background-color: #b79479;
 }
 
 .ChildAbout h5 {
@@ -42,8 +43,8 @@
 
 .ParentAbout button {
   @apply w-1/4 mt-10 font-semibold text-lg text-center rounded-lg;
-  background-color: #f7b633;
-  color: #25282b;
+  background-color: #795a46;
+  color: #ebebeb;
   padding: 8px 24px;
   line-height: 150%;
 }
@@ -53,9 +54,9 @@
 }
 
 .ParentAbout button:hover {
-  color: #f7b633;
+  color: #ebebeb;
   background-color: transparent;
-  border: 1px solid #f7b633;
+  border: 1px solid #b79479;
 }
 
 .ContentContainer p {
@@ -64,13 +65,15 @@
 }
 
 .skillsContainer {
-  @apply text-white py-24 px-40;
-  background-color: #2c2e2d;
+  @apply py-24 px-40;
+  /* background-color: #2c2e2d; */
+  background-color: #b79479;
+  color: #ebebeb;
 }
 
 .main {
   @apply flex justify-around  rounded-md shadow-lg mb-8 items-center p-5 w-64;
-  background-color: #282a29;
+  background-color: #795a46;
 }
 
 .main img {
@@ -79,7 +82,7 @@
 
 .main:hover {
   @apply px-8;
-  color: #d69e2e;
+  color: #b79479;
 }
 
 .skillsContainer div {
@@ -92,13 +95,15 @@
 
 .headerImage {
   @apply bg-fixed bg-no-repeat bg-cover;
-  background-image: url("../../public/headerlogo.png");
+  background: linear-gradient(to top, #795a46, #795a46, #795a46),
+    url("../../src/Assets/workspace.jpg");
+  background-blend-mode: multiply;
 }
 
-.headerImage main {
+/* .headerImage main {
   @apply;
   background-color: rgba(1, 1, 1, 0.8);
-}
+} */
 
 .ParentSkills {
   @apply flex items-center gap-3 w-32 text-center rounded-md;
@@ -107,7 +112,7 @@
 
 .ParentSkills div {
   @apply w-8 h-1;
-  background-color: #d69e2e;
+  background-color: #795a46;
 }
 
 .ParentSkills h5 {
@@ -121,7 +126,7 @@
 .ServicesContainer {
   @apply text-white py-16 px-40;
   height: fit-content;
-  background-color: #282a29;
+  background-color: #795a46;
 }
 
 .ServicesFlex {
@@ -130,12 +135,12 @@
 
 .ParentServices {
   @apply flex items-center gap-3 w-40 text-center rounded-md;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 15px -3px #b79479;
 }
 
 .ParentServices div {
   @apply w-8 h-1;
-  background-color: #d69e2e;
+  background-color: #b79479;
 }
 
 .ServicesIntro h1 {
@@ -144,9 +149,9 @@
 
 .ServicesMain {
   @apply flex flex-col mb-10 p-8 items-start;
-  background-color: #2c2e2d;
+  background-color: #795a46;
   width: 31%;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 10px #b79479;
   border-radius: 10px;
 }
 
@@ -156,7 +161,7 @@
 
 main.ServicesMain:hover {
   @apply font-semibold;
-  background-color: #d69e2e;
+  background-color: #b79479;
   color: #000000;
 }
 
@@ -173,16 +178,18 @@ main.ServicesMain:hover {
 
 .ServicesMain div {
   @apply flex items-center justify-center;
-  background-color: #d69e2e;
+  background-color: #b79479;
   width: 65px;
   height: 60px;
   border-radius: 50%;
 }
 
 .ProjectIntro {
-  @apply text-white py-12 px-40;
+  @apply py-12 px-40;
   height: fit-content;
-  background-color: #2c2e2d;
+  /* background-color: #2c2e2d; */
+  background-color: #b79479;
+  color: #ebebeb;
 }
 
 .ParentProject {
@@ -192,7 +199,7 @@ main.ServicesMain:hover {
 
 .ParentProject div {
   @apply w-8 h-1;
-  background-color: #d69e2e;
+  background-color: #795a46;
 }
 
 .ProjectIntro h1 {
@@ -205,10 +212,10 @@ main.ServicesMain:hover {
 
 .boxOne {
   @apply rounded-tl-lg rounded-bl-lg px-10 py-5;
-  background-color: #282a29;
+  background-color: #b79479;
   height: 390px;
   width: 496px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 10px #795a46;
 }
 
 .boxOne h1 {
@@ -220,14 +227,14 @@ main.ServicesMain:hover {
   background-color: #f0f0f0;
   height: 390px;
   width: 496px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 10px #795a46;
 }
 
 .projectButton1 {
   @apply mt-10 font-semibold text-lg text-center rounded-lg;
-  background-color: #f7b633;
+  background-color: #795a46;
   width: 30%;
-  color: #25282b;
+  color: #ebebeb;
   padding: 8px 24px;
   line-height: 150%;
   cursor: pointer;
@@ -238,16 +245,16 @@ main.ServicesMain:hover {
   width: 30%;
   padding: 8px 24px;
   line-height: 150%;
-  border: 1px solid #f7b633;
+  border: 1px solid #795a46;
   cursor: pointer;
-  color: #f7b633;
+  color: #ebebeb;
   background-color: transparent;
 }
 
 .projectButton1:hover {
-  color: #f7b633;
+  color: #ebebeb;
   background-color: transparent;
-  border: 1px solid #f7b633;
+  border: 1px solid #795a46;
 }
 
 .projectButton1:focus {
@@ -255,8 +262,8 @@ main.ServicesMain:hover {
 }
 
 .projectButton2:hover {
-  color: #25282b;
-  background-color: #f7b633;
+  color: #ebebeb;
+  background-color: #795a46;
 }
 
 .projectButton2:focus {
@@ -298,7 +305,7 @@ main.ServicesMain:hover {
   only screen and (max-device-width: 799px) {
   .ContentContainer {
     @apply flex justify-center py-20;
-    background-color: #282a29;
+    background-color: #795a46;
   }
 
   .ContentContainer main {
@@ -324,7 +331,7 @@ main.ServicesMain:hover {
 
   .ChildAbout div {
     @apply w-24 h-2;
-    background-color: #d69e2e;
+    background-color: #b79479;
   }
 
   .ChildAbout h5 {
@@ -338,8 +345,9 @@ main.ServicesMain:hover {
 
   .ParentAbout button {
     @apply w-1/3 mt-10 font-semibold text-center rounded-lg;
-    background-color: #f7b633;
-    color: #25282b;
+    background-color: #795a46;
+    color: #ebebeb;
+
     padding: 8px 30px;
     line-height: 150%;
     font-size: 2.5rem;
@@ -352,13 +360,13 @@ main.ServicesMain:hover {
 
   .skillsContainer {
     @apply text-white py-40 px-8 flex flex-col items-center justify-center;
-    background-color: #2c2e2d;
+    background-color: #B79479;
     height: fit-content;
   }
 
   .main {
     @apply flex justify-around  rounded-md shadow-lg mb-10 items-center p-12;
-    background-color: #282a29;
+    background-color: #795A46;
     width: 100%;
   }
 
@@ -382,12 +390,12 @@ main.ServicesMain:hover {
   }
   .ParentSkills {
     @apply flex items-center gap-3 w-48 text-center rounded-md;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 15px -3px #795A46;
   }
 
   .ParentSkills div {
     @apply w-24 h-2;
-    background-color: #d69e2e;
+    background-color: #795A46;
   }
 
   .ParentSkills h5 {
@@ -401,12 +409,12 @@ main.ServicesMain:hover {
 
   .ParentServices {
     @apply flex items-center gap-3 w-64 text-center rounded-md;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 15px -3px #795a46;
   }
 
   .ParentServices div {
     @apply w-24 h-2;
-    background-color: #d69e2e;
+    background-color: #B79479;
   }
 
   .ParentServices h5 {
@@ -422,14 +430,14 @@ main.ServicesMain:hover {
   .ServicesContainer {
     @apply text-white py-32 px-4;
     height: fit-content;
-    background-color: #282a29;
+    background-color: #795A46;
   }
 
   .ServicesMain {
     @apply flex flex-col mb-16 p-32 items-center justify-center;
-    background-color: #2c2e2d;
+    background-color: #795A46;
     width: 100%;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 10px rgba#B79479;
     border-radius: 10px;
   }
 
@@ -453,7 +461,7 @@ main.ServicesMain:hover {
 
   .ServicesMain div {
     @apply flex items-center justify-center;
-    background-color: #d69e2e;
+    background-color: #B79479;
     width: 145px;
     height: 140px;
     border-radius: 50%;
@@ -476,7 +484,7 @@ main.ServicesMain:hover {
   .ProjectIntro {
     @apply text-white py-32 px-8;
     height: fit-content;
-    background-color: #2c2e2d;
+    background-color: #B79479;
   }
 
   .ProjectMain {
@@ -495,7 +503,7 @@ main.ServicesMain:hover {
 
   .ParentProject div {
     @apply w-24 h-2;
-    background-color: #d69e2e;
+    background-color: #795A46;
   }
 
   .ParentProject h1 {
@@ -512,10 +520,10 @@ main.ServicesMain:hover {
 
   .boxOne {
     @apply rounded-tl-lg rounded-bl-lg px-10 py-10;
-    background-color: #282a29;
+  background-color: #B79479;
     height: fit-content;
     width: 100%;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 10px #795A46;
   }
 
   .boxOne h1 {
@@ -538,9 +546,9 @@ main.ServicesMain:hover {
 
   .projectButton1 {
     @apply mt-10 font-semibold text-4xl text-center rounded-lg;
-    background-color: #f7b633;
+    background-color: #795A46;
     width: 30%;
-    color: #25282b;
+    color: #EBEBEB;
     padding: 12px 30px;
     line-height: 150%;
     cursor: pointer;
@@ -551,16 +559,16 @@ main.ServicesMain:hover {
     width: 30%;
     padding: 12px 30px;
     line-height: 150%;
-    border: 1px solid #f7b633;
+    border: 1px solid #795A46;
     cursor: pointer;
-    color: #f7b633;
+    color: #EBEBEB;
     background-color: transparent;
   }
 
   .projectButton1:hover {
-    color: #f7b633;
-    background-color: transparent;
-    border: 1px solid #f7b633;
+    color: #EBEBEB;
+    background-color: #795A46;
+    border: 1px solid #795A46;
   }
 
   .projectButton1:focus {
@@ -568,8 +576,8 @@ main.ServicesMain:hover {
   }
 
   .projectButton2:hover {
-    color: #25282b;
-    background-color: #f7b633;
+    color: #EBEBEB;
+    background-color: #795A46;
   }
 
   .projectButton2:focus {

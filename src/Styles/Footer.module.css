@@ -1,6 +1,6 @@
 .ContactContainer {
   @apply flex flex-col items-center py-32;
-  background-color: #282a29;
+  background-color: #795a46;
   height: 897px;
 }
 
@@ -15,11 +15,11 @@
 
 .ParentContact h3 {
   @apply font-bold text-4xl;
-  color: white;
+  color: #ebebeb;
 }
 
 input::placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #ebebeb;
   font-weight: 300;
   font-size: 16px;
   line-height: 72px;
@@ -35,22 +35,23 @@ textarea::placeholder {
 .line {
   @apply;
   width: 150px;
-  background-color: #d69e2e;
+  background-color: #b79479;
   height: 3px;
 }
 
 button {
   @apply w-full mt-32 font-semibold text-lg text-center rounded-lg;
-  background-color: #f7b633;
-  color: #25282b;
+  background-color: #795a46;
+  color: #ebebeb;
   padding: 8px 24px;
   line-height: 150%;
+  box-shadow: 4px 4px 10px #b79479;
 }
 
 button:hover {
-  color: #f7b633;
+  color: #ebebeb;
   background-color: transparent;
-  border: 1px solid #f7b633;
+  border: 1px solid #795a46;
 }
 
 button:focus {
@@ -70,18 +71,18 @@ button:focus {
   @apply;
   width: 90%;
   height: 60px;
-  background-color: #2c2e2d;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  background-color: #795a46;
+  box-shadow: 4px 4px 10px #b79479;
   border-radius: 10px;
   padding-left: 15px;
-  color: white;
+  color: #ebebeb;
 }
 
 .ParentContact form input {
   width: 100%;
   height: 60px;
-  background-color: #2c2e2d;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  background-color: #795a46;
+  box-shadow: 4px 4px 10px #b79479;
   border-radius: 10px;
   padding-left: 15px;
   color: white;
@@ -91,8 +92,8 @@ button:focus {
 .ParentContact form textarea {
   width: 100%;
   height: 190px;
-  background-color: #2c2e2d;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  background-color: #795a46;
+  box-shadow: 4px 4px 10px #b79479;
   border-radius: 10px;
   padding-left: 15px;
   padding-top: 15px;
@@ -102,7 +103,8 @@ button:focus {
 
 .footer {
   @apply flex justify-center items-center;
-  background-color: #2c2e2d;
+  /* background-color: #2c2e2d; */
+  background-color: #b79479;
   height: 150px;
 }
 
@@ -112,10 +114,11 @@ button:focus {
 
 .footer main p {
   @apply mt-6;
-  color: #f7b633;
+  color: #795a46;
   font-weight: 200;
   font-size: 15px;
   line-height: 22px;
+  color: #ebebeb;
 }
 
 .footer main div {
@@ -125,9 +128,10 @@ button:focus {
 .footerIcons {
   @apply w-2/5 h-10;
   border-radius: 50%;
-  background-color: #f7b633;
+  background-color: #795a46;
   padding: 5px;
   cursor: pointer;
+  color: #ebebeb;
 }
 
 @media only screen and(max-width:799px),
@@ -170,22 +174,25 @@ button:focus {
   .line {
     @apply;
     width: 150px;
-    background-color: #d69e2e;
+    background-color: #b79479;
     height: 3px;
   }
 
   button {
-    @apply w-full mt-40 font-semibold text-2xl text-center rounded-lg;
-    background-color: #f7b633;
-    color: #25282b;
+    @apply w-full font-semibold text-2xl text-center rounded-lg;
+    background-color: #795a46;
+    color: #ebebeb;
     padding: 8px 24px;
     line-height: 150%;
+    box-shadow: 4px 4px 10px #b79479;
+    margin-top: 8rem;
+    
   }
 
   button:hover {
-    color: #f7b633;
+    color: #ebebeb;
     background-color: transparent;
-    border: 1px solid #f7b633;
+    border: 1px solid #795a46;
   }
 
   button:focus {
@@ -205,8 +212,8 @@ button:focus {
     @apply;
     width: 90%;
     height: 90px;
-    background-color: #2c2e2d;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: #795a46;
+    box-shadow: 4px 4px 10px #b79479;
     border-radius: 10px;
     padding-left: 15px;
     color: white;
@@ -215,8 +222,8 @@ button:focus {
   .ParentContact form input {
     width: 100%;
     height: 90px;
-    background-color: #2c2e2d;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: #795a46;
+    box-shadow: 4px 4px 10px #b79479;
     border-radius: 10px;
     padding-left: 15px;
     color: white;
@@ -226,8 +233,8 @@ button:focus {
   .ParentContact form textarea {
     width: 100%;
     height: 190px;
-    background-color: #2c2e2d;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: #795a46;
+    box-shadow: 4px 4px 10px #b79479;
     border-radius: 10px;
     padding-left: 15px;
     padding-top: 15px;
@@ -247,7 +254,7 @@ button:focus {
 
   .footer main p {
     @apply mt-6;
-    color: #f7b633;
+    color: #795a46;
     font-weight: 200;
     font-size: 22px;
     line-height: 22px;
@@ -260,7 +267,7 @@ button:focus {
   .footerIcons {
     @apply w-3/5 h-10;
     border-radius: 50%;
-    background-color: #f7b633;
+    background-color: #795a46;
     padding: 5px;
     cursor: pointer;
   }

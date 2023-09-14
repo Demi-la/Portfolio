@@ -12,17 +12,17 @@ const Footer = () => {
           <div className={Styles.footerIcons}>
             <a
               target="_blank"
-              href="https://github.com/chilara"
+              href="https://github.com/Demi-la"
               rel="noreferrer"
-              >
+            >
               <FaGithub
                 style={{ width: "30px", height: "20px", marginTop: "5px" }}
-                />
+              />
             </a>
           </div>
           <div className={Styles.footerIcons}>
             <a
-                href="https://www.linkedin.com/in/oguine-chisom/"
+              href="https://www.linkedin.com/in/adebiyi-oluwaseun-demilade-1b823a251/"
               target="_blank"
               rel="noreferrer"
             >
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className={Styles.footerIcons}>
             <a
-              href="mailto:oguinechisomtimothycareer@gmail.com"
+              href="mailto:adebiyio28@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +43,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p> &copy; 2023 | Built by Chisom Oguine</p>
+        <p> &copy; 2023 | Built by Adebiyi  oluwaseun  </p>
       </main>
     </section>
   );
