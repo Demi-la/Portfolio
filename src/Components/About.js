@@ -52,7 +52,7 @@ const About = ({ handleOpen }) => {
             field of frontend development and the endless possibilities it
             offers.
           </p>
-          <button onClick={handleOpen}>View CV</button>{" "}
+          {/* <button onClick={handleOpen}>View CV</button>{" "} */}
           <button><CTA/></button>
         </div>
       </main>

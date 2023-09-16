@@ -129,7 +129,7 @@ const projectLists = [
   {
     title: "IP Address Tracker",
     description:
-      "This is an IP address tracker web app where users can input an IP address nd then retrieve and display information about that IP address, such as its location on a map, the associated country, city, ISP (Internet Service Provider). Built with React js, Chakra ui and  Leafletjs",
+      "This is an IP address tracker web app where users can input an IP address and then retrieve and display information about that IP address, such as its location on a map, the associated country, city, ISP (Internet Service Provider). Built with React js, Chakra ui and  Leafletjs",
     githubRepo: "https://github.com/Demi-la/IP-address-tracker",
     liveSite: "https://ip-address-tracker-eosin-tau.vercel.app/",
     image: (
