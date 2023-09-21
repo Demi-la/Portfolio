@@ -43,7 +43,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p> &copy; 2023 | Built by Adebiyi  oluwaseun  </p>
+        <p>  2023 Adebiyi  oluwaseun  </p>
       </main>
     </section>
   );

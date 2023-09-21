@@ -34,6 +34,7 @@ import resume from "../Assets/Adebiyi's resume.pdf"
 import dogs from "../Assets/dogs.png"
 import market from "../Assets/market.png"
 import movieBox from "../Assets/movieBox.png";
+import gallery from "../Assets/gallery.png";
 const skillList = [
   {
     image: logo4,
@@ -185,12 +186,20 @@ const projectLists = [
     image: <img src={dogs} alt="" style={{ height: "100%" }} />,
   },
   {
-    title: "movieBox",
+    title: "MovieBox",
     description:
       "This is a movie web app where users can get movies. Built with React js, Chakra UI and integrated TMDB API",
     githubRepo: "https://github.com/Demi-la/MovieBox-Hng-task-two",
     liveSite: "https://movie-box-hng-task-two.vercel.app/",
     image: <img src={movieBox} alt="" style={{ height: "100%" }} />,
+  },
+  {
+    title: "Gallery",
+    description:
+      "This is an image gallery web app where users can views different images, search images and re-arrange images by dragging and dropping the images. Built with React js, Chakra UI, Sortablejs and integrated unsplash API. NOTE: users can only login with these credentails, Email: user@example.com, Password: 1Password",
+    githubRepo: "https://github.com/Demi-la/Gallery-HNG-Stage-3-Task",
+    liveSite: "https://gallery-hng-stage-3-task.vercel.app/",
+    image: <img src={gallery} alt="" style={{ height: "100%" }} />,
   },
 ];
 
